@@ -1,3 +1,5 @@
+IGW Exploration Demo
+---
 A simple experiment of IGW exploration (this implementation is also known as SquareCB in \[1\])
 
 To run this experiment execute `experiment.py`. This will create `out.log`. Once `out.log` has been created `analysis.ipynb` can be used to create plots from the experimental results.
