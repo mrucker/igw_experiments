@@ -55,7 +55,6 @@ class MlpRewardModel(torch.nn.Module):
 
     def __init__(self, n_layers:int):
         self._n_layers = n_layers
-        self._defined = False
         super().__init__()
 
     def define(self, context, actions):
